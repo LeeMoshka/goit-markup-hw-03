@@ -147,7 +147,7 @@ a.navigation-list-link {
   list-style-type: none;
 }
 .contacts .item + .item {
-  margin-left: 50px;
+  padding-left: 50px;
 }
 .contacts.mail-link {
   display: block;
@@ -162,8 +162,8 @@ a.navigation-list-link {
   padding-right: 50px;
 }
 .phone-link.item {
-  margin-left: 50px;
-  margin-right: auto;
+  padding-left: 50px;
+  padding-right: auto;
 }
 .mail-link,
 .phone-link {
