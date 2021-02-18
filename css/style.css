@@ -53,7 +53,7 @@ body {
 .card-title {
   margin-left: 0;
   padding-left: 0;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.172;
@@ -126,6 +126,7 @@ body {
 .navigation-list-link {
   padding-top: 32px;
   padding-bottom: 32px;
+  color: var(--title-color);
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
@@ -151,12 +152,11 @@ body {
   flex-direction: row;
 }
 .item {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-right: 50px;
 }
+
 .mail-link.item {
   margin-left: auto;
-  margin-right: 50px;
 }
 .phone-link.item {
   margin-right: auto;
@@ -185,6 +185,7 @@ body {
   padding-bottom: 200px;
   background-color: #2f303a;
 }
+
 .main-block {
   display: flex;
   flex-wrap: wrap;
@@ -194,11 +195,13 @@ body {
 
   text-align: center;
 }
-
+.hero-container {
+  width: 696px;
+}
 .main-title {
   display: block;
   width: 1200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
@@ -220,7 +223,7 @@ body {
 }
 .hero-button {
   display: block;
-
+  padding: 8px 30px;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #ffffff;
@@ -261,9 +264,6 @@ body {
   margin-right: 26px;
 }
 
-.card-title-list > .card-title {
-  padding-bottom: 10px;
-}
 .card-title {
   text-transform: uppercase;
 }
@@ -280,13 +280,13 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-
-.about-us {
+.container-about-us {
   display: block;
   flex-wrap: wrap;
   width: 1200px;
-  padding-bottom: 94px;
   margin: 0 auto;
+  padding: 0 15px;
+  padding-bottom: 94px;
 }
 
 .about-us-title {
@@ -321,6 +321,11 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
+}
+.container-our-team {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .title-team {
   font-weight: 700;
